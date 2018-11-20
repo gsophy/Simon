@@ -217,7 +217,7 @@ function check() {
     noise = false;
     }
 
-    if (turn == playerOrder.length && goog && !win) {
+    if (turn == playerOrder.length && good && !win) {
         turn++;
         playerOrder = [];
         compTurn = true;
